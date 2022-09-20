@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  user-select: none;
+  font-family: 'Inria Sans', sans-serif !important;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  font: 400 14px Roboto, sans-serif;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #335c62;
+}
+
+#container {
+  width: 33%;
+}
+
+#res {
+  background-color: lightgray;
+  height: 48px;
+  font-size: 26px;
+  border: 1px solid #f5f5f5;
+  border-radius: 5px;
+  padding: 5px 20px;
+  color: #363636;
+  overflow: hidden;
+}
+
+#btns button {
+  width: 25%;
+  height: 36px;
+  font-size: 20px;
+  margin: 0px;
+  float: left;
+  border: 2px solid #f5f5f5;
+  border-radius: 5px;
+}
+
+#btn0,
+#btn1 {
+  background-color: #59a2ad;
+  color: #f3f3f3;
+}
+
+#btnClr,
+#btnEql {
+  background-color: #335c62;
+  color: #f3f3f3;
+}
+
+#btnSum,
+#btnSub,
+#btnMul,
+#btnDiv {
+  background-color: #363636;
+  color: #f3f3f3;
+}
+
+.description {
+  margin-top: 50px;
+  text-align: center;
+  color: #999;
+  width: 40%;
+  line-height: 28px;
+  font-size: 16px;
+}
+
+span {
+  color: #335c62;
+}
+
+/* additional */
+.mar{
+    margin-top: 30px;
+}
+
+
+
+
+html {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(45deg, rgb(243, 160, 160), rgba(85, 13, 114, 0.493));
+    min-height: 100%;
+    text-align: center;
+}
+
+.output {
+    margin: 1rem;
+    font-size: 1.4rem;
+    color: rgb(0, 0, 0)
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-left: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 800px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    h1, h2 {
+        font-size: 1.1rem;
+    }
+}
+
+.btn {
+    padding: 10px 5px;
+    font-size: 1rem;
+    background: #59a2ad;
+    color: rgba(255, 255, 255, 0.726);
+    outline: none;
+    border: none;
+    margin: .4em 0;
+    width: 100%;
+    transition: background-color .2s ease-in-out;
+}
+
+.btn:last-child {
+    background: #335c62;
+}
+
+.btn:hover {
+    background: rgb(139, 156, 214); 
+    color: rgba(0, 0, 0, 0.788);
+}
+.btns {
+    display: flex;
+    width: 100%;
+}
+.input-box{
+  background-color: lightgray;
+  height: 38px;
+  font-size: 26px;
+  border: 1px solid #f5f5f5;
+  border-radius: 5px;
+  padding: 5px 20px;
+  color: #363636;
+  overflow: hidden;
+}
+.heading{
+    margin-bottom: -20px;
+    margin-top: 20px;
+}
